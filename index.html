@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Todo-List</title>
+	
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+	<div class="wrapper">
+		<header>Todo List App</header>
+		<div class="inputField">
+			<input type="text" placeholder="I want to...">
+			<button><i class="fas fa-plus"></i></button>
+		</div>
+		<ul class="todoList">
+			<!-- Data from localstorage will show here -->
+		</ul>
+		<div class="footer">
+			<span class="noOfPendingTasks">You have <span class="pendingTasks"></span> pending task/s</span>
+			<button>Delete All</button>
+		</div>
+	</div>
+	<!-- <div class="theme-container">
+		<button class="themeLight">Light mode</button>
+		<button class="themeDark">Dark mode</button>
+	</div> -->
+	<script src="script.js"></script>
+</body>
+</html>
